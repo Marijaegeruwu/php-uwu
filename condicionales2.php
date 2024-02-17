@@ -29,16 +29,27 @@
            </table>
 
         <?php
-        $a=5;
-        $b=9.6;
+        $mat=5;
+        $b=9.8;
         $c=0;
-        if($b>=9)
-        {
-            $c=($a*1600)/0.3;
-            
-        }
+       if($b>=9)
+       {    
+            $c=$mat*1600;
+            $desc=$c*0.30;
+            $c=$c-$desc;
 
-        echo "Valor: ",$c;
+            echo "El costo es: ",$c;
+       }
+       else
+       {
+            $c=$mat*1600;
+            $iva=$c*0.16;
+            $c=$c+$iva;
+            echo "El costo es: ",$c;
+
+       }
+
+       
         ?>
 
     </body>
