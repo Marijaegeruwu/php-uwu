@@ -65,16 +65,7 @@
          echo "<br>";
 
      /*Calcular la desviacion estandar */
-     /* $ewe=0;
-     for($i=0; $i<$y; $i++)
-     {
-         $ewe=$ewe+abs(($x[$i]-$arr)*($x[$i]-$arr));
-     }
-     $div=$ewe/$y;
-     $raiz=sqrt($div);
-     echo "La desviación estandar: ". round($raiz,2), "<br>"; */
-
-     /*No tengo idea de como deberia de verse la desviacion estandar pipipipipi */
+     /*nomesalio*/
     ?>
 
 
